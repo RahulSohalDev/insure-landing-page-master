@@ -1,0 +1,280 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  display: flex;
+  font-family: "Balsamiq Sans", cursive;
+  /* margin: 25px 0px; */
+  /* padding-top: 25px; */
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+  margin: 25px auto;
+}
+
+.left svg {
+  align-items: center;
+}
+/* .right {
+  font-family: monospace;
+} */
+.right ul {
+  display: flex;
+  justify-content: right;
+}
+.right ul li {
+  list-style: none;
+}
+.right ul li a {
+  text-decoration: none;
+  padding: 0px 13px;
+  font-size: 16px;
+  color: hsl(216, 30%, 68%);
+}
+.right ul li a:hover {
+  color: hsl(256, 26%, 20%);
+  text-decoration: underline;
+}
+
+/* header */
+#head {
+  background-color: hsl(256, 26%, 20%);
+  height: 670px;
+  /* color: white; */
+  /* display: flex;
+        justify-content: center;
+        padding: 100px 0px; */
+}
+.head-center {
+  display: flex;
+
+  justify-content: center;
+  padding: 100px 0px;
+  color: white;
+  width: 80%;
+  margin: auto;
+}
+.left-head {
+  /* width: 42%; */
+  margin: 70px 0px;
+}
+.head-contant {
+  padding: 15px 0px;
+}
+.head-contant h1 {
+  padding: 14px 0px;
+  font-size: 63px;
+}
+.head-btn {
+  /* margin: 0px 15px; */
+  border-radius: 2px soild white;
+  border: 2px soild white;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  color: #fff;
+  border: 2px solid white;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 1;
+  font-size: 13px;
+  background-color: transparent;
+  padding: 5px;
+  outline: none;
+  border-radius: 4px;
+}
+.head-btn:hover {
+  color: #001f3f;
+  background-color: #fff;
+}
+
+/* section1 */
+.section1 {
+  width: 80%;
+
+  margin: auto;
+}
+.p {
+  font-size: 50px;
+  font-family: "Balsamiq Sans", cursive;
+  margin: 150px 0px;
+}
+.SAP {
+  display: flex;
+  margin: 80px 0px;
+}
+/* .SAP svg {
+        display: block;
+        margin: auto;
+      } */
+.process {
+  width: 33.33%;
+
+  margin: 0px 15px;
+}
+.price {
+  width: 33.33%;
+  margin: 0px 15px;
+}
+.people {
+  width: 33.33%;
+  margin: 0px 15px;
+}
+.section-contant1 {
+  padding: 12px 0px;
+}
+.section-contant1 p {
+  padding: 10px 0px;
+}
+.section-contant2 {
+  padding: 12px 0px;
+}
+.section-contant2 p {
+  padding: 10px 0px;
+}
+.section-contant3 {
+  padding: 12px 0px;
+}
+.section-contant3 p {
+  padding: 10px 0px;
+}
+
+/* box */
+.box {
+  background-color: hsl(256, 26%, 20%);
+  color: white;
+  display: flex;
+  margin: 100px 0px;
+}
+.contant {
+  margin: 50px 20px;
+  width: 67%;
+  font-family: "Balsamiq Sans", cursive;
+  font-size: 40px;
+}
+/* .contant p {
+} */
+.contact-btn {
+  margin: auto;
+  display: block;
+}
+.contact-btn button {
+  padding: 8px 6px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  color: #fff;
+  border: 2px solid white;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 1;
+  font-size: 13px;
+  background-color: transparent;
+  padding: 5px;
+  outline: none;
+  border-radius: 4px;
+}
+.contact-btn button:hover {
+  color: #001f3f;
+  background-color: #fff;
+}
+
+/* footer */
+footer {
+  background-color: hsl(0, 0%, 98%);
+}
+.footer-contact {
+  display: flex;
+
+  padding: 30px 0px;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+}
+.client svg {
+  padding: 0px 38px;
+  cursor: pointer;
+}
+/* LINKS */
+.link {
+  display: flex;
+  margin: auto;
+
+  width: 80%;
+  padding: 50px 0px;
+}
+.link ul {
+  padding: 12px 0px;
+}
+.link a:hover {
+  text-decoration: underline;
+}
+.link h3 {
+  /* color: hsl(0, 0%, 98%); */
+  font-size: 15px;
+}
+.link1 {
+  width: 30%;
+}
+.link2 {
+  width: 30%;
+}
+.link3 {
+  width: 30%;
+}
+.link4 {
+  width: 10%;
+}
+.link1 ul li {
+  list-style: none;
+}
+.link2 ul li {
+  list-style: none;
+}
+.link3 ul li {
+  list-style: none;
+}
+.link4 ul li {
+  list-style: none;
+}
+.link1 ul li a {
+  text-decoration: none;
+  color: hsl(256, 26%, 20%);
+  font-size: 12px;
+  font-family: sans-serif;
+}
+.link2 ul li a {
+  text-decoration: none;
+  color: hsl(256, 26%, 20%);
+  font-size: 12px;
+  font-family: sans-serif;
+}
+.link3 ul li a {
+  text-decoration: none;
+  color: hsl(256, 26%, 20%);
+  font-size: 12px;
+  font-family: sans-serif;
+}
+.link4 ul li a {
+  text-decoration: none;
+  color: hsl(256, 26%, 20%);
+  font-size: 12px;
+  font-family: sans-serif;
+}
+/* style */
+
+/* .head-style {
+        position: absolute;
+        right: 0px;
+        top: 73px;
+      }
+      .SAP-style {
+        position: absolute;
+        left: 0px;
+        top: 130%;
+      } */
+.image2 {
+  display: none;
+}
