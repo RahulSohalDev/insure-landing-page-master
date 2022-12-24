@@ -28,8 +28,9 @@ The designs were created to the following widths:
 
 ### Headings
 
-- Family: [DM Serif Display](https://fonts.google.com/specimen/DM+Serif+Display)
+- Family: [DM Serif Display](https://fonts.google.com//DM+Serif+Display)
 - Weights: 400
+  specimen
 
 ### Body
 
